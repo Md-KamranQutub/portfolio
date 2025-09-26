@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
-import Brain from "../../components/brain"; 
+import { motion } from "framer-motion"; 
 
 const page = () => {
   const skills =["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "Git","MySQL","Tailwind CSS","Framer Motion"]; 

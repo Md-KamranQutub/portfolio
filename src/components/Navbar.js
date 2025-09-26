@@ -5,7 +5,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Navlink from "./Navlink";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const links = [
