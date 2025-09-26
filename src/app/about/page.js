@@ -13,9 +13,9 @@ const page = () => {
       transition={{ duration: 1 }}
     >
       {/* Container */}
-      <div className=" mt-7 flex flex-col md:flex-row w-full h-full px-4 md:px-16 lg:px-24 space-x-8">
+      <div className=" mt-7 flex  w-full h-[cal(100vh-6rem)] justify-center items-center px-4 md:px-16 lg:px-24 space-x-8">
         {/* Biography */}
-        <div className="left md:w-1/2 w-full md:h-full overflow-y-scroll no-scrollbar">
+        <div className="left w-full md:w-1/2 h-full">
           <div className="flex flex-col justify-center items-center gap-3">
             <h2 className="text-3xl font-bold mb-2 text-black">Biography</h2>
             <p className="text-normal md:text-lg mb-2 md:mb-4 text-black px-4 md:px-0 text-center md:text-left">
@@ -43,11 +43,7 @@ const page = () => {
               </div>
             ))}
           </div>
-        </div>
-        </div>
-        {/* Svg Container */}
-        <div className="hidden md:flex w-1/2 md:h-full justify-center items-center">
-          <Brain />
+          </div>
         </div>
       </div>
     </motion.div>
