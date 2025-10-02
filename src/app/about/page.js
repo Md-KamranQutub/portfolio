@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const page = () => {
+const Page = () => {
   const skills = [
     "HTML",
     "CSS",
@@ -32,7 +32,7 @@ const page = () => {
           <div className="flex flex-col justify-center items-center gap-3">
             <h2 className="text-3xl font-bold mb-2 text-black">Biography</h2>
             <p className="text-normal md:text-lg mb-2 md:mb-4 text-black px-4 md:px-0 text-center md:text-left">
-              Hello! I'm Md Kamran Qutub, a passionate web developer and
+              Hello! I&apos;m Md Kamran Qutub, a passionate web developer and
               designer dedicated to crafting beautiful and functional digital
               experiences. With a background in Computer Science, I specialize
               in creating responsive and user-friendly websites that not only
@@ -43,12 +43,12 @@ const page = () => {
               <img
                 src="/sign.svg"
                 alt="Signature"
-                className=" h-24 w-48 object-contain"
+                className="h-24 w-48 object-contain"
               />
             </div>
           </div>
           <div>
-            <h2 className=" flex justify-center items-center text-3xl font-bold mb-2 text-black">
+            <h2 className="flex justify-center items-center text-3xl font-bold mb-2 text-black">
               Skills
             </h2>
             <div className="skills flex flex-wrap gap-4 mt-4">
@@ -68,4 +68,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

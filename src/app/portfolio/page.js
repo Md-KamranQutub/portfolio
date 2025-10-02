@@ -3,7 +3,7 @@ import React , {useRef} from "react";
 import { motion, useScroll } from "framer-motion";
 import Link from "next/link";
 import { useTransform } from "framer-motion";
-const page = () => {
+const Page = () => {
   const projects = [
     {
       id: 1,
@@ -102,4 +102,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
