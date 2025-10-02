@@ -1,8 +1,7 @@
 "use client";
-import React from "react";
+import React , {useRef} from "react";
 import { motion, useScroll } from "framer-motion";
 import Link from "next/link";
-import { useRef } from "react";
 import { useTransform } from "framer-motion";
 const page = () => {
   const projects = [
